@@ -165,9 +165,12 @@ Compile with the following command:
 ```bash
 g++ -Wall -Wextra -g3 -I./glad/include -o ./output/hello_triangle hello_triangle.cpp -lglfw -ldl
 ```
--I./glad/include tells the compiler where to find glad.h.
--lglfw links the GLFW library.
--ldl links to the dynamic loader.
+Meaning from above:
+   -I./glad/include tells the compiler where to find glad.h.
+   
+   -lglfw links the GLFW library.
+   
+   -ldl links to the dynamic loader.
 
 If you face this error:
 Please install [clang](http://clang.llvm.org/) or check configuration clang.executable
