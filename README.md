@@ -74,14 +74,14 @@ Ensure your project is structured like this:
 openglprojects/
 ├── glad/
 │   ├── include/
-│   │ |  └── glad/
-│   │ |      └── glad.h
-|   | |__KHR/
-|   |     └── khrplatform.h
-|   | 
-│   └── src/glad.c      <-- Make sure this file is present
+│   │   ├── glad/
+│   │   │   └── glad.h
+│   │   └── KHR/
+│   │       └── khrplatform.h
+│   └── src/
+│       └── glad.c   <-- Ensure this file exists
 ├── hello_triangle.cpp
-└── output/
+└── output/           <-- This is where the compiled executable will go
 
 ```
 
